@@ -58,6 +58,7 @@ const displayMeal = () => {
             /* Add image */
             const mealImage = document.getElementById("mealImage");
             mealImage.src = randomRecipe.strMealThumb;
+            mealImage.alt = `An image of ${randomRecipe.strMeal}`;
 
             /* Add meal source */
             const mealSource = document.getElementById("mealSource");
